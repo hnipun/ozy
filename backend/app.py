@@ -10,6 +10,7 @@ cors = CORS(app, supports_credentials=True)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 handlers.add_handlers(app)
+handlers.add(self)
 
 
 @cross_origin()
