@@ -4,6 +4,8 @@ def sample_api():
     :return:
     """
     print(10 / 0)
+    print('test')
+    print()
     return {"message": "success"}
 
 
